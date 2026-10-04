@@ -11,7 +11,7 @@ window.LAB = {
 
   /* ---------- 기본 정보 ---------- */
   affiliation: {
-    ko: "경희대학교 [수정: 단과대학 · 학과]",
+    ko: "경희대학교 전자정보대학",
     en: "Electronic Eng., Kyung Hee Univ."
   },
   email: "eleest [at] khu.ac.kr",                         // [수정] 대표 문의 메일. @ 가 없으면 링크 없이 글자로만 표시됩니다.
