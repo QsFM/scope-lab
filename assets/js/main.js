@@ -42,10 +42,10 @@
     pubs_h: { ko: '대표 성과', en: 'Selected Publications' },
     members_h: { ko: '구성원', en: 'People' },
     news_h: { ko: '연구실 소식', en: 'Lab News' },
-    join_h: { ko: '전기·전자공학 배경을 가진 학생을 모집합니다', en: 'We welcome students with an electrical engineering background' },
+    join_h: { ko: '전기·전자공학·물리학 배경을 가진 학생을 모집합니다.', en: 'We welcome students with an electrical engineering/Physics background'  },
     join_p: {
-      ko: '전자기학, 회로·시스템, 최적화, 양자정보에 관심이 있는 학부 연구생과 대학원생을 환영합니다. 먼저 메일로 연락 주세요.',
-      en: 'Undergraduate researchers and graduate students interested in electromagnetics, circuits and systems, optimization, and quantum information are welcome. Please send us an email first.'
+      ko: '전자기학, 반도체공정, 최적화, 양자정보에 관심이 있는 학부 연구생과 대학원생을 환영합니다. 먼저 메일로 연락 주세요.',
+      en: 'Undergraduate researchers and graduate students interested in electromagnetics, semiconductor processes, optimization, and quantum information are welcome. Please send us an email first.'
     },
     join_cta: { ko: '지원 문의하기', en: 'Contact us' },
     contact_h: { ko: '오시는 길 · 연락처', en: 'Location & Contact' },
