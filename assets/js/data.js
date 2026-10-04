@@ -101,7 +101,7 @@ window.LAB = {
         ko: "능동 메타표면, 에너지절감 광학필름, 주파수 선택 구조 등 전자기파 소자의 설계를 FDTD, RCWA, TMM과 기계학습 최적화 기법으로 수행합니다.",
         en: "We design electromagnetic structures such as active metasurfaces, energy-saving optical films, and frequency selective structures using FDTD, RCWA, TMM, and machine learning optimization methods."
       },
-      tags: ["Photonics", "Differentiable physics", "Numerical Methods", "Semi-analytical Methods", "AI for Photonics"]
+      tags: ["Photonics", "Differentiable Physics", "Numerical Methods", "Semi-analytical Methods", "AI for Photonics"]
     },
     {
       icon: "process",
