@@ -21,7 +21,7 @@
         var t = localStorage.getItem('scope-theme');
         if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
         document.documentElement.setAttribute('data-theme', t);
-        var l = localStorage.getItem('scope-lang') || ((navigator.language || 'ko').indexOf('ko') === 0 ? 'ko' : 'en');
+        var l = localStorage.getItem('scope-lang') || 'en');
         document.documentElement.setAttribute('lang', l);
       } catch (e) {}
     })();
