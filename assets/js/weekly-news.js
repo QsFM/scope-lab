@@ -5,8 +5,8 @@ window.WEEKLY_NEWS = [
     "date": "2026-10-05",
     "url": "https://QsFM.github.io/scope-digest/2026-10-05.html",
     "text": {
-      "ko": "SCOPE Weekly 2026-10-05 · 주간 논문 리포트 (연구실 구성원 전용, 암호 필요)",
-      "en": "SCOPE Weekly 2026-10-05 · Weekly paper digest (lab members only, password required)"
+      "ko": "SCOPE Weekly 2026-10-05 · 주간 논문 리포트",
+      "en": "SCOPE Weekly 2026-10-05 · Weekly paper digest"
     }
   }
 ];
