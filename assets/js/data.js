@@ -12,7 +12,7 @@ window.LAB = {
   /* ---------- 기본 정보 ---------- */
   affiliation: {
     ko: "경희대학교 전자공학과",
-    en: "Electronic Eng., Kyung Hee Univ."
+    en: "Electronic Engineering, Kyung Hee University"
   },
   email: "eleest [at] khu.ac.kr",                         // [수정] 대표 문의 메일. @ 가 없으면 링크 없이 글자로만 표시됩니다.
   copyrightYear: 2026,
@@ -40,15 +40,15 @@ window.LAB = {
     bio: {},
     interests: [],
     education: [
-      { period: "2009", text: { ko: "경희대학교 물리학전공 이학석사", en: "B.S. Physics, Kyung Hee Univ., Republic of Korea " } },
-      { period: "2015", text: { ko: "서울대학교 나노과학기술 공학박사", en: "Ph.D. Nano Science and Technology, Seoul National Univ., Republic of Korea" } }
+      { period: "2009", text: { ko: "경희대학교 물리학전공 이학석사", en: "B.S. Physics, Kyung Hee University, Republic of Korea " } },
+      { period: "2015", text: { ko: "서울대학교 나노과학기술 공학박사", en: "Ph.D. Nano Science and Technology, Seoul National University, Republic of Korea" } }
     ],
     career: [
-      { period: "2025-", text: { ko: "경희대학교 전자공학과 부교수", en: "Associate Professor, Electronic Eng., Kyung Hee Univ." } },
-      { period: "2021-2025", text: { ko: "경희대학교 전자공학과 조교수", en: "Assistant Professor, Electronic Eng., Kyung Hee Univ." } },
-      { period: "2020-2021", text: { ko: "국립금오공과대학교 기계시스템공학과 조교수", en: "Assistant Professor, Mechanical System Eng., KIT" } },
-      { period: "2019-2020", text: { ko: "미국노터데임대학교 기계항공공학부 연구조교수", en: "Research Assistant Professor, Aerospace and Mechanical Eng., Univ. of Notre Dame, USA" } },
-      { period: "2015-2019", text: { ko: "미국노터데임대학교 기계항공공학부 박사후연구원", en: "Postdoctoral Associate, Aerospace and Mechanical Eng., Univ. of Notre Dame, USA" } }
+      { period: "2025-", text: { ko: "경희대학교 전자공학과 부교수", en: "Associate Professor, EE, Kyung Hee University" } },
+      { period: "2021-2025", text: { ko: "경희대학교 전자공학과 조교수", en: "Assistant Professor, EE, Kyung Hee University" } },
+      { period: "2020-2021", text: { ko: "국립금오공과대학교 기계시스템공학과 조교수", en: "Assistant Professor, MSE, KIT" } },
+      { period: "2019-2020", text: { ko: "미국노터데임대학교 기계항공공학부 연구조교수", en: "Research Assistant Professor, AME, University of Notre Dame, USA" } },
+      { period: "2015-2019", text: { ko: "미국노터데임대학교 기계항공공학부 박사후연구원", en: "Postdoctoral Associate, AME, University of Notre Dame, USA" } }
     ],
     awards: [
       { period: "2025", text: { ko: "과학기술정보통신부 장관 표창, 대한민국 과학기술대전", en: "과학기술정보통신부 장관 표창, 대한민국 과학기술대전" } },
@@ -83,7 +83,7 @@ window.LAB = {
         ko: "실험과 시뮬레이션 비용이 큰 문제에서, 적은 시도로 최적 조건을 찾는 확률적 탐색 방법을 연구합니다.",
         en: "We study probabilistic search methods that find optimal conditions with few trials when experiments and simulations are costly."
       },
-      tags: ["Stochastic optimization", "Bayesian optimization", "Active learning", "Generative AI", "Surrogate model"]
+      tags: ["Bayesian Optimization", "Active Learning", "Generative AI", "Surrogate Model", "Sparse Data"]
     },
     {
       icon: "quantum",
@@ -96,21 +96,21 @@ window.LAB = {
     },
     {
       icon: "wave",
-      title: { ko: "전자기파 · 메타포토닉스", en: "Electromagnetics & Metaphotonics" },
+      title: { ko: "포토닉스 · 메타표면 디자인", en: "Photonics & Metasurface Design" },
       text: {
-        ko: "능동 메타표면, 에너지절감 광학필름, 주파수 선택 구조 등 전자기파 소자의 설계를 FDTD, RCWA, TMM과 기계학습 최적화 기법으로 수행합니다.",
-        en: "We design electromagnetic structures such as active metasurfaces, energy-saving optical films, and frequency selective structures using FDTD, RCWA, TMM, and machine learning optimization methods."
+        ko: "능동 메타표면, 에너지절감 광학필름, 주파수 선택 구조 등 전자기파구조 디자인을 전자기파솔버와 기계학습 최적화 기법으로 수행합니다.",
+        en: "We design electromagnetic structures such as active metasurfaces, energy-saving optical films, and frequency selective structures using EM solvers and machine learning optimization methods."
       },
-      tags: ["Photonics", "Differentiable Physics", "Numerical Methods", "Semi-analytical Methods", "AI for Photonics"]
+      tags: ["Photonics", "Differentiable Physics", "Numerical Methods", "Semi-Analytical Methods", "AI for Photonics"]
     },
     {
       icon: "process",
       title: { ko: "공정 최적화 · Sim-to-Real", en: "Process Optimization & Sim-to-Real" },
       text: {
-        ko: "배터리 전극등의 에너지 소재, IGZO 등의 반도체 박막 공정에서, 시뮬레이션과 실험 사이의 차이를 줄이는 데이터 기반 공정 최적화를 연구합니다.",
-        en: "We reduce the gap between simulation and experiment through data-driven optimization of battery electrodes (e.g., SiOx) and semiconductor thin-film processes (e.g., IGZO)."
+        ko: "배터리 전극등의 에너지 소재, IGZO 등의 반도체, 포토닉스 초다층박막 공정에서, 시뮬레이션과 실험 사이의 차이를 줄이는 데이터 기반 공정 최적화를 연구합니다.",
+        en: "We reduce the gap between simulation and experiment through data-driven optimization of battery electrodes (e.g., SiOx), semiconductors (e.g., IGZO) and photonic ultra-multilayer thin-film processes."
       }, 
-      tags: ["Sim-to-Real", "Energy", "Semiconductors", "Process Optimization", "Sim-to-Real"]
+      tags: ["Sim-to-Real", "Energy", "Semiconductors", "Process Optimization", "Photonic Ultra-Multilayered film"]
     }
   ],
 
