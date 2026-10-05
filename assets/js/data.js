@@ -87,10 +87,10 @@ window.LAB = {
     },
     {
       icon: "quantum",
-      title: { ko: "양자 컴퓨팅 기반 최적화", en: "Quantum Computing for Optimization" },
+      title: { ko: "양자 컴퓨팅 기반 최적화", en: "Quantum Computing for Practical Applications" },
       text: {
-        ko: "양자어닐링부터 게이트 기반 NISQ 컴퓨팅으로 확장하는 최적화 알고리즘과, 고차 인수분해 머신(HOFM)기반 블랙박스 최적화를 다룹니다.",
-        en: "We develop optimization algorithms that extend from quantum annealing to gate-based NISQ computing, including black-box optimization with higher-order factorization machines (HOFM)."
+        ko: "양자어닐링부터 게이트 기반 NISQ 컴퓨팅으로 확장하는 최적화 알고리즘과, 일반 최적화 문제를 양자정보로 변환하는 고차 인수분해 머신(HOFM)을 연구합니다.",
+        en: "We develop optimization algorithms that extend from quantum annealing to gate-based NISQ computing, as well as higher-order factorization machines (HOFM) that map general optimization problems into quantum information.."
       },
       tags: ["Quantum Annealing", "NISQ", "HOFM", "QUBO", "AI for Quantum"]
     },
