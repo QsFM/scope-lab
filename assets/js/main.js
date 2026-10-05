@@ -211,9 +211,18 @@
     $('#topics').innerHTML = (L.topics || []).map(function (t) { return '<span class="tag">#' + esc(t) + '</span>'; }).join('');
   }
 
+  function newsKey(d) {
+    var a = String(d || '').split('-');
+    return (a[0] || '0000') + ('0' + (a[1] || '0')).slice(-2) + ('0' + (a[2] || '0')).slice(-2);
+  }
+
   function renderNews() {
-    $('#newsList').innerHTML = (L.news || []).map(function (n) {
-      return '<li class="reveal"><time datetime="' + esc(n.date) + '">' + esc(n.date) + '</time><p>' + esc(tr(n.text)) + '</p></li>';
+    var list = (L.news || []).concat(window.WEEKLY_NEWS || []);
+    list.sort(function (a, b) { return newsKey(b.date) < newsKey(a.date) ? -1 : newsKey(b.date) > newsKey(a.date) ? 1 : 0; });
+    $('#newsList').innerHTML = list.map(function (n) {
+      var t = esc(tr(n.text));
+      if (n.url && safeUrl(n.url)) t = '<a href="' + esc(n.url) + '" target="_blank" rel="noopener">' + t + ' ↗</a>';
+      return '<li class="reveal"><time datetime="' + esc(n.date) + '">' + esc(n.date) + '</time><p>' + t + '</p></li>';
     }).join('');
   }
 
