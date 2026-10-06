@@ -173,21 +173,21 @@ window.LAB = {
       name: { ko: "정세랑(Serang Jung)", en: "정세랑(Serang Jung)" },
       year: "2024",
       degree: { ko: "석사", en: "M.S."},
-      now: { ko: "서울대학교 박사과정", en: "Graduate Student, Seoul National Univ." }
+      now: { ko: "서울대학교 박사과정", en: "Graduate Student, Seoul National University" }
     },
     {
       group: "alumni",
       name: { ko: "안상우(Sang-woo Ahn)", en: "안상우(Sang-woo Ahn)" },
       year: "2023",
       degree: { ko: "학사", en: "B.S."},
-      now: { ko: "미국미시건대학교 박사과정", en: "Graduate Student, Univ. of Michigan, Ann Arbor, USA" }
+      now: { ko: "미국미시건대학교 박사과정", en: "Graduate Student, University of Michigan, Ann Arbor, USA" }
     },
     {
       group: "alumni",
       name: { ko: "정혁래(Hyukrae Jung)", en: "정혁래(Hyukrae Jung)" },
       year: "2024",
       degree: { ko: "학사", en: "B.S."},
-      now: { ko: "LIG Defense&Aerospace", en: "LIG Defense&Aerospace" }
+      now: { ko: "LIG Defense&Aerospace", en: "LIG Defense & Aerospace" }
     },
     {
       group: "alumni",
@@ -205,8 +205,8 @@ window.LAB = {
 
   /* ---------- 연락처 ---------- */
   contact: [
-    { label: { ko: "주소", en: "Address" },    value: { ko: "경희대학교 전자정보대학 337-1호/507호", en: "337-1/507 Electronic Eng., Kyung Hee Univ." } },
-    { label: { ko: "이메일", en: "Email" },    value: { ko: "eleest[at]khu.ac.kr", en: "eleest[at]khu.ac.kr" }, mail: true },
+    { label: { ko: "주소", en: "Address" },    value: { ko: "경희대학교 전자정보대학 337-1호/507호", en: "337-1/507 Electronic Engineering, Kyung Hee University" } },
+    { label: { ko: "이메일", en: "Email" },    value: { ko: "eleest@khu.ac.kr", en: "eleest[at]khu.ac.kr" }, mail: true },
     { label: { ko: "전화", en: "Phone" },      value: { ko: "031-201-2581", en: "[Edit] +82-31-201-2581" } }
   ]
 };
