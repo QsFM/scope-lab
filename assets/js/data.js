@@ -206,7 +206,7 @@ window.LAB = {
   /* ---------- 연락처 ---------- */
   contact: [
     { label: { ko: "주소", en: "Address" },    value: { ko: "경희대학교 전자정보대학 337-1호/507호", en: "337-1/507 Electronic Engineering, Kyung Hee University" } },
-    { label: { ko: "이메일", en: "Email" },    value: { ko: "eleest@khu.ac.kr", en: "eleest[at]khu.ac.kr" }, mail: true },
+    { label: { ko: "이메일", en: "Email" },    value: { ko: "eleest@khu.ac.kr", en: "eleest@]khu.ac.kr" }, mail: true },
     { label: { ko: "전화", en: "Phone" },      value: { ko: "031-201-2581", en: "[Edit] +82-31-201-2581" } }
   ]
 };
