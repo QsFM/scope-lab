@@ -181,7 +181,7 @@ img { max-width: 100%; display: block; }
 
 /* PROFESSOR */
 .prof { display: grid; grid-template-columns: 280px 1fr; gap: 40px; background: var(--card); border: 1px solid var(--line); border-radius: 22px; padding: 32px; box-shadow: var(--shadow); align-items: start; }
-.prof-photo { width: 100%; aspect-ratio: 1043 / 1814; border-radius: 18px; object-fit: cover; background: linear-gradient(135deg, #0369a1, #22d3ee); display: grid; place-items: center; color: #fff; font-size: 4rem; font-weight: 800; }
+.prof-photo { width: 100%; aspect-ratio: 1196 / 1080; border-radius: 18px; object-fit: cover; background: linear-gradient(135deg, #0369a1, #22d3ee); display: grid; place-items: center; color: #fff; font-size: 4rem; font-weight: 800; }
 .prof h3 { margin: 0; font-size: 1.7rem; line-height: 1.25; }
 .prof .role { margin: 4px 0 2px; color: var(--accent); font-weight: 700; }
 .prof .aff { margin: 0 0 14px; color: var(--muted); }
